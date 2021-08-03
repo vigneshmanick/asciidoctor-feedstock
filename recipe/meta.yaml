@@ -1,5 +1,5 @@
 {% set name = "asciidoctor" %}
-{% set version = "2.0.15" %}
+{% set version = "2.0.16" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: c4120b16f7c054ee39e755b5b8cee6b248facaa4ec56b7ce493fd646aa8c744c
+  sha256: 02439a5b89b25550297a21c631035c2a6608d6fc9d9b63d7f137b3356bbd0482
 
 build:
   noarch: generic
