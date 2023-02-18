@@ -21,7 +21,7 @@ requirements:
   host:
     - ruby
   run:
-    - {{ pin_compatible('ruby', max_pin='x.x') }}
+    - ruby
 
 test:
   commands:
